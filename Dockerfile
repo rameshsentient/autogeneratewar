@@ -1,3 +1,3 @@
 FROM tomcat
-RUN jar -cvf autosentientwar.war
+RUN jar -cvf autosentientwar.war *
 CMD ["catalina.sh", "run"]
