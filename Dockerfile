@@ -1,3 +1,3 @@
 FROM tomcat
-RUN jar -cvf sentientautogenerate.war *
+RUN jar -cvf /usr/local/tomcat/webapps/sentientautogenerate.war *
 CMD ["catalina.sh", "run"]
