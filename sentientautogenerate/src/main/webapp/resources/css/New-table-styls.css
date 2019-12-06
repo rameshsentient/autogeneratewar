@@ -1,0 +1,36 @@
+
+  .new-table table{
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+  }
+ 
+  .new-table tbody>tr>td{
+    line-height: 3;
+    background-color: white;
+  }
+  .new-table thead>tr>th{
+   line-height:2.5;
+   border-bottom: none;
+  }
+  .new-table table td:first-child{
+   padding-left:20px!important;
+  } 
+  .new-table table th:last-child{
+    border-radius:0 5px  5px 0;
+  }
+  .new-table table th:first-child{
+    border-radius:5px 0 0 5px;
+    padding-left:20px!important;
+  }
+  body{
+    background-color:#f6f6f6;
+  }
+  .container-fluid{
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 95%;
+    margin: auto;
+  }
+  .Da-MS-top{
+margin-top:115px!important;
+  }

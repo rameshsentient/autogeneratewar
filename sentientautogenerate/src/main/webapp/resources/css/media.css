@@ -1,0 +1,25 @@
+@media(max-width : 768px){
+	.leftPans{
+		padding:0px;
+	}
+	.microServBox h3{
+		font-size: 14px;
+	}
+	.microServDets{
+		padding: 0px;
+	}
+	.funBxDiv i.fa-cogs{
+		font-size: 20px;
+    	padding: 10px;
+	}
+	.funBxDiv .imaFns{
+		width: 43px;
+		height: 43px;
+	}
+}
+
+@media(max-width: 450px){
+	.microServBox{
+		border:none;
+	}
+}

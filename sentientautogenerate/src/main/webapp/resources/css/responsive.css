@@ -1,0 +1,22 @@
+@media(max-width:767px){
+	.formGroup .formLabel{
+		width: 100%;
+		text-align: left !important;
+	}
+	.formBox.paddingLeft30{
+		padding: 0px;
+	}
+	.formBox.layout-xs-column md-input-container.inputBoxed{
+		margin-left:0px;
+		margin-bottom: 15px;
+	}
+	.formDiv .formGroup{
+		margin-bottom: 10px;
+	}
+	select.inputLined.marginLeft10,md-input-container.inputLined.marginLeft10{
+		margin-left:0px;
+	}
+	md-tabs-canvas.md-paginated{
+		margin:0px;
+	}
+}
