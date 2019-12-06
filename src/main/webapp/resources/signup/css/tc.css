@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "avenir roman";
+    src: url('../fonts/AvenirLTStd-Roman.otf');
+  }
+  
+  
+body {
+    letter-spacing: .4px!important;
+    font-weight: 400;
+    background: #fff;
+    font-family:'avenir roman';
+}
