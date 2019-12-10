@@ -1,5 +1,5 @@
 FROM tomcat
-FROM maven:3.5-jdk-8-alpine
+FROM maven
 COPY . /app
 WORKDIR /app
 CMD ["catalina.sh", "run"]
